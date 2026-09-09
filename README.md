@@ -9,4 +9,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3904-smallest-stable-index-ii](https://github.com/SL03112008/My_LeetCode_journey/tree/master/3904-smallest-stable-index-ii) |
+## Math
+|  |
+| ------- |
+| [3871-count-commas-in-range-ii](https://github.com/SL03112008/My_LeetCode_journey/tree/master/3871-count-commas-in-range-ii) |
 <!---LeetCode Topics End-->
