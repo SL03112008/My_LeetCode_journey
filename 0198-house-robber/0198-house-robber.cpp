@@ -1,15 +1,17 @@
 class Solution {
 public:
-    //tabulation:-
+    //space optimization:-
     int rob(vector<int>& nums) {
-        vector<int> dp(nums.size()+2,-1);
-        dp[0]=nums[0];
+        vector<int> dp(3,0);
+        dp[1]=nums[0];dp[2]=nums[0];
         for(int i=1;i<nums.size();i++){
             int rob = nums[i];
-            if(i!=1) rob+=dp[i-2];
-            int skip = dp[i-1];
-            dp[i] = max(rob,skip); 
+            if(i!=1) rob+=dp[0];
+            int skip = dp[1];
+            dp[2] = max(rob,skip);
+            dp[0]=dp[1];
+            dp[1]=dp[2];
         }
-        return dp[nums.size()-1];
+        return dp[2];
     }
 };
