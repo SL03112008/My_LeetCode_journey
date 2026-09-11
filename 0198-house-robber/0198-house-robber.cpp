@@ -10,7 +10,14 @@ private:
     }
 public:
     int rob(vector<int>& nums) {
+        int n=nums.size();
         vector<int> dp(nums.size()+2,-1);
-        return f(nums,0,dp);
+        dp[n]=0;dp[n-1]=nums[n-1];
+        for(int i=n-2;i>=0;i--){
+            int rob = nums[i]+dp[i+2];
+            int skip = dp[i+1];
+            dp[i]=max(rob,skip);
+        }
+        return dp[0];
     }
 };
