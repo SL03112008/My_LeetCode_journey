@@ -11,13 +11,19 @@ private:
 public:
     int rob(vector<int>& nums) {
         int n=nums.size();
-        vector<int> dp(nums.size()+2,-1);
-        dp[n]=0;dp[n-1]=nums[n-1];
-        for(int i=n-2;i>=0;i--){
-            int rob = nums[i]+dp[i+2];
-            int skip = dp[i+1];
-            dp[i]=max(rob,skip);
+        if(n==1){
+            return nums[0];
         }
-        return dp[0];
+        vector<int> dp(3,0);
+        dp[0]=0;dp[1]=nums[n-1];
+        for(int i=n-2;i>=0;i--){
+            int rob = nums[i]+dp[0];
+            int skip = dp[1];
+            dp[2]=max(rob,skip);
+            dp[0]=dp[1];
+            dp[1]=dp[2];
+        }
+
+        return dp[2];
     }
 };
