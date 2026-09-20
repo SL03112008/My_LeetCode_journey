@@ -50,4 +50,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0063-unique-paths-ii](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0064-minimum-path-sum) |
+## String
+|  |
+| ------- |
+| [3498-reverse-degree-of-a-string](https://github.com/SL03112008/My_LeetCode_journey/tree/master/3498-reverse-degree-of-a-string) |
+## Simulation
+|  |
+| ------- |
+| [3498-reverse-degree-of-a-string](https://github.com/SL03112008/My_LeetCode_journey/tree/master/3498-reverse-degree-of-a-string) |
 <!---LeetCode Topics End-->
