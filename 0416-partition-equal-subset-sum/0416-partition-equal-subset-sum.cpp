@@ -14,16 +14,18 @@ public:
         int half = accumulate(nums.begin(),nums.end(),0);
         if(half%2) return 0;
         half/=2;
-        vector<vector<int>> dp(nums.size()+2,vector<int>(half+2,0)); 
+        vector<int> after(half+2,0); 
+        vector<int> cur(half+2,0); 
         // return f(0,half,nums,dp);
         int n = nums.size();
-        for(int i=0;i<n;i++) dp[i][0]=1;
+        for(int i=0;i<n;i++) after[0]=1;
         for(int ind=n-1;ind>=0;ind--){
             for(int sum = 1;sum<=half;sum++){
-                dp[ind][sum] = dp[ind+1][sum];
-                if(dp[ind][sum]==0 && sum>=nums[ind]) dp[ind][sum] = dp[ind+1][sum-nums[ind]]; 
+                cur[sum] = after[sum];
+                if(cur[sum]==0 && sum>=nums[ind]) cur[sum] = after[sum-nums[ind]]; 
             }
+            after = cur;
         }
-        return dp[0][half];
+        return cur[half];
     }
 };
