@@ -9,14 +9,16 @@ private:
     }
 public:
     int maxProfit(vector<int>& prices, int fee) {
-        vector<vector<int>> dp(prices.size()+1,vector<int>(2,0));
+        vector<int> cur(2,0);
+        vector<int> after(2,0);
         vector<int> &v = prices;
         // return f(0,1,prices,fee,dp);
         int n = prices.size();
         for(int i=n-1;i>=0;i--){
-            dp[i][1] = max(-fee-v[i]+dp[i+1][0] , dp[i+1][1]);
-            dp[i][0] = max(v[i]+dp[i+1][1] , dp[i+1][0]);
+            cur[1] = max(-fee-v[i]+after[0] , after[1]);
+            cur[0] = max(v[i]+after[1] , after[0]);
+            after=cur;
         }
-        return dp[0][1];
+        return cur[1];
     }
 };
