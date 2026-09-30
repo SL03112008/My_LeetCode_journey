@@ -3,25 +3,25 @@ public:
     vector<int> maxDepthAfterSplit(string seq) {
         int n = seq.size();
         vector<int> ans(n,0);
-        stack<char> A,B;
+        int A=0,B=0;
         for(int i=0;i<n;i++){
             if(seq[i] == '('){
-                if(A.size()>B.size()){
-                    B.push(seq[i]);
+                if(A>B){
+                    B++;
                     ans[i]=1;
                 }
                 else{
-                    A.push(seq[i]);
+                    A++;
                     ans[i]=0;
                 }
             }
             else{
-                if(A.size()>0){
-                    A.pop();
+                if(A>0){
+                    A--;
                     ans[i]=0;
                 }
                 else{
-                    B.pop();
+                    B--;
                     ans[i]=1;
                 }
             }
