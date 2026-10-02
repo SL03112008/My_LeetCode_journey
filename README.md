@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0022-generate-parentheses) |
 | [0062-unique-paths](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0064-minimum-path-sum) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0022-generate-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -99,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bracket Sequences
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0022-generate-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -111,4 +114,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0416-partition-equal-subset-sum) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
