@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0022-generate-parentheses) |
+| [0856-score-of-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0856-score-of-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0856-score-of-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0856-score-of-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -102,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0022-generate-parentheses) |
+| [0856-score-of-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/0856-score-of-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/SL03112008/My_LeetCode_journey/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
